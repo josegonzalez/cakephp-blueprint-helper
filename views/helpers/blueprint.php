@@ -222,7 +222,7 @@ class BlueprintHelper extends AppHelper {
 						$finalText .= " class=\"$classes\"";
 					endif;
 					$finalText .= ">$text</div>";
-				endforeach
+				endforeach;
 			else :
 				$i = 0;
 				foreach($texts as $text) :
